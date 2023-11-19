@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+header {
+    background-color: #14204a;
+    height: 70px;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.content {
+    overflow: hidden;
+}
+
+.logoArea {
+    width: 40%;
+    height: 70px;
+    float: left;
+}
+
+.logoArea img {
+    width: 110px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.menuArea {
+    width: 60%;
+    float: left;
+} 
+
+.menu {
+    font-size: 15px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 17px 30px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.menu li a:hover {
+    background-color:  #000099;
+    height: 30px;
+}
+
+.subOfSub {
+    padding: 0;
+    background-color: #0000e6;
+    position: absolute;
+    display: none;
+}
+
+.subOfSub li {
+    float: none;
+}
+
+.subOfSub li a:hover {
+    background-color: #4d4dff;
+}
+
+
+.subMenu:hover .subOfSub {
+    display: block;
+}
+
+.subOfSub-menu {
+    position: relative;
+}
+
+.lastMenu {
+    background-color:  #6666ff;
+    left: 100%;
+    padding: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: none;
+    
+ }
+ 
+
+.lastMenu li a:hover {
+    background-color: #2323b1;
+    width: 70%;
+    height: 100%;
+}
+
+.subOfSub-menu:hover .lastMenu {
+    display: block;
+}
+
+.vision img{
+    width: 100%;
+   
+}
+
+.picture{
+    background-image:url("../image/CROWN MARINERS.png");
+    background-size: cover;
+    overflow: hidden;
+    height: 700px;
+    display: block;
+    background-repeat: no-repeat;
+   
+}
+.picture h1 {
+    text-align: justify;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    border: 1px rgb(245, 241, 241) solid;
+}
+
+
+.fleet {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ship {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+.contact {
+    background-color: #14204a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    color: #ffffff ;
+}
+
+.footer {
+
+    background-color: #14204a;
+    position: relative
+}
+
+.footer__top {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 45px
+}
+
+.footer-top__left {
+    float: left;
+    width: 26%;
+    padding-left: 4%
+}
+
+.footer-top__left a,.footer-top__right a {
+    text-decoration: none;
+    color: #fff
+}
+
+.footer p {
+    color: #fff
+}
+
+.footer-top__right {
+    float: right;
+    width: 20%
+}
+
+
+
+.footer hr {
+    color: #1d3d74;
+    border-top: 1px solid #1d3d74
+}
+
+.pipe {
+    margin: 0 20px
+}
+
+.footer__bottom {
+    text-align: center;
+    z-index: 1
+}
+
+.footer__bottom p {
+    color: #fff
+}
+
+.copyright__p {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.privacy__policy h4 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px
+}
+
+.privacy__policy {
+    margin-bottom: 60px;
+    padding: 0 50px
+}
+

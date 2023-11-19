@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    display: block;
+}
+
+header {
+    background-color: #14204a;
+    height: 80px;
+   
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logoArea {
+    width: 35%;
+    height: 70px;
+    float: left;
+}
+
+.logoArea img {
+    width: 120px;
+    height: 80px;
+    padding-left: 5px;
+}
+.menuArea {
+    width: 65%;
+    float: left;
+}
+
+.menu {
+    font-size: 15px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 17px 30px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.menu li a:hover {
+    background-color:  #000099;
+    height: 45px;
+}
+
+.subOfSub {
+    padding: 0;
+    background-color: #0000e6;
+    position: absolute;
+    display: none;
+}
+
+.subOfSub li {
+    float: none;
+}
+
+.subOfSub li a:hover {
+    background-color: #4d4dff;
+}
+
+.subMenu:hover .subOfSub {
+    display: block;
+}
+
+.subOfSub-menu {
+    position: relative;
+}
+
+.lastMenu {
+    background-color:  #6666ff;
+    left: 100%;
+    padding: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.lastMenu li a:hover {
+    background-color: #2323b1;
+    width: 70%;
+    height: 100%;
+}
+
+.subOfSub-menu:hover .lastMenu {
+    display: block;
+}
+.mobile-menu-button {
+    display: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+@media screen and (max-width: 425px) {
+    .menu {
+        display: none;
+        float: none;
+        clear: both;
+    }
+
+    .mobile-menu-button {
+        display: block;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menu.open {
+        display: block;
+    }
+}
+
+.picture {
+    margin-top: 0;
+    background-image: url("../image/DEPARTURE PHOTO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.about {
+    margin-top: 0;
+    background-color: rgb(178, 222, 241);
+    width: 100%;
+    height: 900px;
+}
+
+.about h1 {
+    font-size: 50px;
+    text-align: justify;
+    margin: 0px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.about h3 {
+    color: #1d3d74;
+    margin-top: 90px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about p {
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 50px;
+    color: rgb(10, 10, 66);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.background {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.paragraph {
+    width: 40%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 200px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+    background-image: linear-gradient(45deg, tomato, orange);
+    box-shadow: 4px 1px 4px 1px rgb(19, 55, 95);
+}
+
+.footer {
+    background-color: #14204a;
+    position: relative;
+    margin-top: 60px;
+}
+
+.footer__top {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 45px;
+    
+}
+
+.footer-top__left {
+    float: left;
+    width: 26%;
+    padding-left: 4%;
+}
+
+.footer-top__left a, .footer-top__right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer-top__right {
+    float: right;
+    width: 20%;
+}
+
+.footer hr {
+    color: #1d3d74;
+    border-top: 1px solid #1d3d74;
+}
+
+.pipe {
+    margin: 0 20px;
+}
+
+.footer__bottom {
+    text-align: center;
+    z-index: 1;
+}
+
+.footer__bottom p {
+    color: #fff;
+}
+
+.copyright__p {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.privacy__policy h4 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.privacy__policy {
+    margin-bottom: 60px;
+    padding: 0 50px;
+}
+
+/* Add a media query for smaller screens (e.g., mobile) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}

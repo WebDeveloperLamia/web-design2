@@ -1,0 +1,269 @@
+
+header {
+    background-color: #14204a;
+    height: 80px;
+}
+
+
+/* .container {
+    width: 1700px;
+    margin: auto;
+    padding: 0;
+   
+    
+} */
+.marquee-container {
+    background-color: rgb(140, 183, 209);
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee h1 {
+    display: inline-block;
+    padding-right: 100%; /* Adjust this value to control the speed of scrolling */
+    color: #14204a;
+    font-weight: 700; 
+}
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+
+.content {
+    overflow: hidden;
+}
+
+.logoArea {
+    width: 22%;
+    height: 70px;
+    float: left;
+}
+
+.logoArea img {
+    width: 120px;
+    height: 80px;
+}
+
+.menuArea {
+    width: 78%;
+    float: left;
+} 
+
+.menu {
+    font-size: 15px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    z-index: 2;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 17px 30px;
+    display: block;
+    text-transform: capitalize;
+    z-index: 2;
+}
+
+.menu li a:hover {
+    background-color:  #000099;
+    height: 80px;
+    z-index: 2;
+}
+
+.subOfSub {
+
+    background-color: #0000e6;
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+
+.subOfSub li {
+    float: none;
+    z-index: 2;
+}
+
+.subOfSub li a:hover {
+    background-color: #4d4dff;
+    z-index: 2;
+}
+
+.subMenu:hover .subOfSub {
+    display: block;
+    z-index: 2;
+}
+
+.subOfSub-menu {
+    position: relative;
+    z-index: 2;
+}
+
+.lastMenu {
+   background-color:  #6666ff;
+   left: 100%;
+   padding: 0;
+   top: 0;
+   position: absolute;
+   width: 100%;
+   display: none;
+   z-index: 2;
+   
+}
+
+.lastMenu li a:hover {
+    background-color: #2323b1;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+}
+
+
+.subOfSub-menu:hover .lastMenu {
+    display: block;
+    z-index: 2;
+}
+
+
+
+
+body{
+ 
+ margin: 0;    
+  padding: 0;    
+}
+
+
+/* .orange-bg{
+    margin-top: 50px;
+    background-color: #fceae8;
+    border-radius: 20px;
+  
+} */
+   
+.carousel-inner {
+    width: 100%;
+    height: 114vh; /* Set the height of the carousel to the full viewport height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%; /* Set the height of each carousel item to the full viewport height */
+}
+
+.carousel-item img {
+    width: 100%; /* Set the image width to 100% of its container */
+    height: 100%; /* Set the image height to 100% of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the full container without gaps */
+}
+
+/* You may need to adjust other styles for text and buttons inside the carousel for optimal placement. */
+
+
+.price{
+    color: rgb(28, 28, 103);
+}
+
+
+/* .col-md-5 img {
+position: cover;
+    width: 1250px;
+    height: 800px;
+   
+    size: cover;
+}
+
+.categories img{
+    width: 100%;
+    padding-left: 100px;
+} */
+
+.footer {
+
+    background-color: #14204a;
+    position: relative
+}
+
+.footer__top {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 45px
+}
+
+.footer-top__left {
+    float: left;
+    width: 26%;
+    padding-left: 4%
+}
+
+.footer-top__left a,.footer-top__right a {
+    text-decoration: none;
+    color: #fff
+}
+
+.footer p {
+    color: #fff
+}
+
+.footer-top__right {
+    float: right;
+    width: 20%
+}
+
+
+
+.footer hr {
+    color: #1d3d74;
+    border-top: 1px solid #1d3d74
+}
+
+.pipe {
+    margin: 0 20px
+}
+
+.footer__bottom {
+    text-align: center;
+    z-index: 1
+}
+
+.footer__bottom p {
+    color: #fff
+}
+
+.copyright__p {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.privacy__policy h4 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px
+}
+
+.privacy__policy {
+    margin-bottom: 60px;
+    padding: 0 50px
+}
