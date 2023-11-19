@@ -87,17 +87,7 @@ header {
     position: relative;
 }
 
-.lastMenu {
-    background-color:  #6666ff;
-    left: 100%;
-    padding: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    display: none;
-    
- }
- 
+
 
 .lastMenu li a:hover {
     background-color: #2323b1;
