@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #14204A;
+    background-color: #14204a;
    height: 70px;
 }
 
@@ -63,12 +63,14 @@ header {
     background-color:  #000099;
     height: 33px;
 }
+
 .subOfSub {
     padding: 0;
     background-color: #0000e6;
     position: absolute;
     display: none;
 }
+
 .subOfSub li {
     float: none;
 }

@@ -1,6 +1,27 @@
 
+@media screen and (max-width: 425px) {
+    .menu {
+        display: none;
+        float: none;
+        clear: both;
+    }
+
+    .mobile-menu-button {
+        display: block;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menu.open {
+        display: block;
+    }
+}
+
+
+
 header {
-    background-color: #14204a;
+    background-color:#14204a;
     height: 80px;
 }
 
@@ -13,7 +34,7 @@ header {
     
 } */
 .marquee-container {
-    background-color: rgb(140, 183, 209);
+    background-color: #FFFFFF;
     height: 50px;
     overflow: hidden;
     position: relative;
@@ -29,7 +50,7 @@ header {
   .marquee h1 {
     display: inline-block;
     padding-right: 100%; /* Adjust this value to control the speed of scrolling */
-    color: #14204a;
+    color: rgba(194, 64, 17, 0.995);
     font-weight: 700; 
 }
   
@@ -89,12 +110,12 @@ header {
 }
 
 .subOfSub {
-
+    padding: 0;
     background-color: #0000e6;
     position: absolute;
     display: none;
-    z-index: 2;
 }
+
 
 .subOfSub li {
     float: none;
@@ -103,7 +124,6 @@ header {
 
 .subOfSub li a:hover {
     background-color: #4d4dff;
-    z-index: 2;
 }
 
 .subMenu:hover .subOfSub {
@@ -128,12 +148,6 @@ header {
    
 }
 
-.lastMenu li a:hover {
-    background-color: #2323b1;
-   width: 100%;
-   height: 100%;
-   z-index: 2;
-}
 
 
 .subOfSub-menu:hover .lastMenu {

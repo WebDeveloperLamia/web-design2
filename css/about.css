@@ -70,7 +70,7 @@ header {
 }
 
 .subOfSub li a:hover {
-    background-color: #4d4dff;
+    background-color: rgb(100, 100, 100);
 }
 
 .subMenu:hover .subOfSub {

@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #14204a;
+    background-color:   #14204a ;
     height: 70px;
 }
 
@@ -95,12 +95,6 @@ header {
     
  }
  
-
-.lastMenu li a:hover {
-    background-color: #2323b1;
-    height: 100%;
-    width: 70%;
-}
 
 
 .subOfSub-menu:hover .lastMenu {
