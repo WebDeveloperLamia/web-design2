@@ -139,18 +139,12 @@ header {
     padding-left: 35px;
 }
 
-.about h3 {
-    color: #1d3d74;
-    margin-top: 90px;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 
 .about p {
     font-size: 1.3rem;
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 40px;
     color: rgb(10, 10, 66);
     padding-left: 15px;
     padding-right: 15px;
